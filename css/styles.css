@@ -1,0 +1,96 @@
+body {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-inside {
+  width: 500px;
+  background-color: rgb(47, 145, 145);
+  padding: 20px 40px 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  animation: anim1 5s infinite;
+}
+
+@keyframes anim1 {
+  from {
+    background-color: rgb(47, 145, 145);
+    color: rgb(0, 0, 0);
+  }
+  to {
+    background-color: rgb(153, 18, 101);
+    color: #ffb703;
+  }
+}
+
+.avatar-div {
+  height: 180px;
+  display: flex;
+  box-shadow: 10px 10px #ffb703;
+  border-radius: 10px;
+}
+.avatar {
+  display: flex;
+  justify-self: space-around;
+  border-radius: 10px;
+}
+
+.info-div {
+  margin: 10px auto;
+  text-align: right;
+}
+
+.stats-div {
+  font-size: medium;
+}
+
+.stats-items {
+  /* display: flex;
+  justify-content: space-around; */
+  margin: 5px auto;
+}
+
+.age {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.location {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 7px 0 0 0;
+}
+
+button {
+  border: 1px solid black;
+  background: #ffb703;
+  border-radius: 4px;
+  font-size: large;
+  box-shadow: 3px 3px #ffb703;
+  margin: 0 0 0 10px;
+}
+.border-box {
+  border: 1px dotted blue;
+}
+
+h1 {
+  margin: 0 0 5px 0;
+}
+
+h2 {
+  margin: 0 0 5px 0;
+}
+
+h3 {
+  margin: auto 0;
+}
+p {
+  margin: 0 0 5px 0;
+}
